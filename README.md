@@ -1,5 +1,9 @@
 # Babun Doftiles
 
-## Installation
-* After installation of babun, run `./install.sh` from within babun.
+### Installation
+* Run `./install.sh` from within babun.
 * Resart babun.
+
+### Tips
+* Type `vim-tips` into the terminal to see a list of useful vim commands.
+
