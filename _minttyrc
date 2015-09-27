@@ -1,5 +1,3 @@
-# Location: %BABUN_DIR%\.babun\cygwin\etc\minttyrc
-
 BoldAsFont=no
 Columns=100
 Rows=35

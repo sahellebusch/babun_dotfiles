@@ -1,0 +1,33 @@
+***********************************************************************
+VIM TIPS!!!
+
+Custom functions [as defined in ~/.vimrc]
+  ,wle - strip trailing windows carriage returns
+  ,ss  - strip trailing white space
+  ,W   - save file as root
+ 
+Mapped commands [as defined in ~/.vimrc]
+  <space> to /      - search
+  <ctrl-space> to ? - backwards search
+  
+Useful Vim commands
+  imtutor    - starts vim editing a copy of a tutorial file -- very good.
+  i          - insert mode. Next keys typed are inserted into the file.
+  ^ w e $    - bigger movements: beginning of line, word, end of word, end of line
+  <Esc>      - Escape from insert mode so you can navigate and use edit commands (stop selecting)
+  u          - undo last command, again and again
+  dw         - delete everything right from the cursor to the start of next word (and put it into the default register)
+  dd         - delete line (and put it into the default register)
+  p          - paste the default register
+  y          - use to yank (copy) what was selected
+  wq         - write and quit  
+  x          - write and quit
+  w filename - write a copy of the file you are editing as filename
+  q!         - quit without saving even if changes were made!
+  help       - display help
+  <Tab>      - use tab completion to scroll through commands that start with what you typed 
+  
+***********************************************************************  
+
+
+
