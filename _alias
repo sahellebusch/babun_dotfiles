@@ -1,4 +1,4 @@
-# vim tips
+# Vim tips
 alias vim-tips="cat ~/.vimreadme"
 
 # Git shortcuts
@@ -6,4 +6,13 @@ alias gs="git status"
 alias ga="git add ."
 alias gc="git commit"
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gitconf="cat ~/.gitconfig"
 
+# General, helpful aliases
+alias rmd="rm -rd"
+
+# maven commands
+alias mci="mvn clean install"
+alias mci-notest="mvn clean install -DnoTest=true -Dmaven.javadoc.skip=true"
+alias mvn3.0.5="setx M2_HOME 'C:\Program Files\apache-maven-3.0.5\apache-maven-3.0.5'"
+alias mvn3.1.1="setx M2_HOME 'C:\Program Files\apache-maven-3.1.1\apache-maven-3.1.1'"
