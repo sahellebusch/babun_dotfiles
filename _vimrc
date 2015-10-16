@@ -142,7 +142,7 @@ function! StripWhitespace()
 endfunction
 noremap <leader>ss :call StripWhitespace()<CR>
 
-" Strip trailing carriage returns
+" Strip trailing carriage returns (,wle)
 function! StripCarriageReturns()
   let save_cursor = getpos(".")
   let old_query = getreg('/')
@@ -150,7 +150,7 @@ function! StripCarriageReturns()
   call setpos('.', save_cursor)
   call setreg('/', old_query)
 endfunction
-noremap <leader>ss :call StripCarriageReturns()<CR>
+noremap <leader>wle :call StripCarriageReturns()<CR>
 
 " Save a file as root (,W)
 noremap <leader>W :w !sudo tee % > /dev/null<CR>
